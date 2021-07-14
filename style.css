@@ -184,3 +184,23 @@
     text-align: center;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+    .game>* {
+        height: 100px;
+        width: 150px;
+    }
+
+    .game {
+        height: 100px;
+    }
+
+    .gameScreen {
+        height: 300px;
+    }
+
+    .game>*::before {
+        width: 150px;
+        height: 100px;
+    }
+}
