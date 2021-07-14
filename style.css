@@ -185,7 +185,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1240px) {
     .game>* {
         height: 100px;
         width: 150px;
@@ -202,5 +202,80 @@
     .game>*::before {
         width: 150px;
         height: 100px;
+    }
+
+    @keyframes rollImg {
+        0% {
+            margin-top: 0px;
+        }
+
+        100% {
+            margin-top: 100px;
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .game>* {
+        height: 75px;
+        width: 125px;
+    }
+
+    .game {
+        height: 75px;
+    }
+
+    .game>*::before {
+        width: 75px;
+        height: 125px;
+    }
+
+    @keyframes rollImg {
+        0% {
+            margin-top: 0px;
+        }
+
+        100% {
+            margin-top: 75px;
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    .game>* {
+        height: 40px;
+        width: 60px;
+    }
+
+    .game {
+        height: 45px;
+    }
+
+    .gameScreen {
+        height: 300px;
+    }
+
+    .game>*::before {
+        width: 40px;
+        height: 60px;
+    }
+
+    .gameInfo button {
+        width: 35%;
+        font-size: 20px;
+    }
+
+    .gameInfo input {
+        width: 60%;
+    }
+
+    @keyframes rollImg {
+        0% {
+            margin-top: 0px;
+        }
+
+        100% {
+            margin-top: 40px;
+        }
     }
 }
